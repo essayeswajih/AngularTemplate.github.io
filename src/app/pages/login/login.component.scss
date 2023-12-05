@@ -1,0 +1,54 @@
+.loginP{
+    height: 100vh;
+    background-color: #151019;
+    display: flex;
+    justify-content: center;
+}
+main{
+    padding: 10px;
+    margin-top: 15vh;
+    height: 50vh;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    width: 50vw;
+    border: 1px solid #8bcdff;
+    border-radius:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: "Courier New";
+    color: #8bcdff;
+}
+.form-group label{
+    min-width: 100px !important;
+    font-family: "Courier New";
+    color: #8bcdff;
+}
+.form-group input{
+    width: 35vw;
+    background-color: #8bcdff;
+    outline: none;
+    padding-left: 10px;
+    height: 30px;
+    border-radius: 3px;
+}
+.form-group{
+    width:45vw;
+    background-color: #151019;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+a{
+    font-size: .8rem;
+    color: #8bcdff;
+}
+.btnSubmit{
+    width:45vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

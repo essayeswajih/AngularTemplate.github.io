@@ -1,0 +1,9 @@
+<header >
+    <ul [class]="{OnScroll:x}">
+        @for (Navitem of navList; track $index) {
+            <li routerLinkActive="active">
+                <button [routerLink]= Navitem.path >{{ Navitem.name }}</button>
+            </li>
+        }
+    </ul>
+</header>
